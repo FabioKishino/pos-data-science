@@ -8,7 +8,7 @@ df = pd.read_csv('TB_RH.csv', sep=';')
 
 st.write('# Análise de Dados dos Servidores Públicos do Estado do Paraná')
 st.caption('Por: Fabio Kishino (11/Ago/2025)')
-st.write('O dataset escolhido para o trabalho é referente ao [portal da transparência do estado do Paraná](https://www.transparencia.pr.gov.br/pte/pessoal/servidores/poderexecutivo/remuneracao?windowId=fa9) e ele possui informações sobre remuneração, cargo e local de trabalho dos servidores civis e militares - Ativos, Aposentados, da Reserva e Reformados, Pensionistas e beneficiários de Pensões Especiais, e de ex-Servidores - do Poder Executivo do Estado do Paraná, desde 2012, estão aqui.')
+st.write('O dataset escolhido para o trabalho é referente ao [portal da transparência do estado do Paraná](https://www.transparencia.pr.gov.br/pte/pessoal/servidores/poderexecutivo/remuneracao?windowId=fa9) e ele possui informações sobre remuneração, cargo e local de trabalho dos servidores civis e militares - Ativos, Aposentados, da Reserva e Reformados, Pensionistas e beneficiários de Pensões Especiais, e de ex-Servidores - do Poder Executivo do Estado do Paraná, estão aqui.')
 st.write('Ele possui um total de 871713 registros e contém as seguintes colunas: cod_vinculo, nome, sigla, instituicao, lotacao, municipio, cargo, dt_inicio, dt_fim, regime, quadro_funcional, quadro_funcional_desc, tipo_cargo, situacao, ult_remu_bruta, genero, ano_nasc e atualizado.')
 st.download_button('Baixar Dataset', data=df.to_csv().encode('utf-8'), file_name='TB_RH.csv', mime='text/csv')
 
@@ -61,9 +61,29 @@ st.bar_chart(df_top_cargos, x_label='Quantidade', y_label='Cargo', horizontal=Tr
 
 st.divider()
 
-df_ativos_filtrado_professores = df_ativos_filtrado[df_ativos_filtrado['CARGO'] == 'PROFESSOR']
+# Gráfico da evolução da remuneração média bruta dos servidores de Curitiba com base na idade
+cargo_choice = st.selectbox(
+    'Selecione o cargo', 
+    options=df_ativos_filtrado['CARGO'].unique(), key='selectbox_cargo'
+)
+
+df_ativos_filtrado_professores = df_ativos_filtrado[df_ativos_filtrado['CARGO'] == cargo_choice]
 df_professores_idade = df_ativos_filtrado_professores.groupby('IDADE')['ULTIMA_REMUNERACAO_BRUTA'].mean().reset_index()
 df_professores_idade = df_professores_idade.rename(columns={'IDADE': 'Idade', 'ULTIMA_REMUNERACAO_BRUTA': 'Remuneração Bruta média (R$)'})
 
-st.write('### Evolução da Remuneração Média Bruta dos Professores de Curitiba com base na idade')
+st.write('### Evolução da Remuneração Média Bruta dos servidores de Curitiba com base na idade e no cargo')
 st.line_chart(df_professores_idade, x='Idade', y='Remuneração Bruta média (R$)', color="#1fb462")
+
+st.divider()
+
+# Evolução do número de funcionários ativos ao longo do tempo
+df_ativos_filtrado.loc[:, 'ANO_INICIO'] = pd.to_datetime(df_ativos['DATA_INICIO']).dt.year
+
+df_ativos_filtrado = df_ativos_filtrado[df_ativos_filtrado['ANO_INICIO'] > 2000]
+evolucao = df_ativos_filtrado.groupby(df_ativos_filtrado['ANO_INICIO']).size()
+evolucao = evolucao.rename("Quantidade de Servidores Ativos")
+
+
+st.write('### Evolução do número de funcionários ativos no Paraná ao longo dos anos')
+evolucao.index = evolucao.index.astype(str)
+st.line_chart(evolucao, color="#1fb462")

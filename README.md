@@ -5,5 +5,4 @@ Este repositório contém os códigos desenvolvidos durante a especialização e
 ## Estrutura Inicial
 - `dashboard.py`: Dashboard interativo desenvolvido com Streamlit.
 - `Trabalho.ipynb`: Notebooks com análises e experimentos da disciplina de Introdução a Programação para Ciência de Dados
-- `TB_RH.csv`: Base de dados utilizada no projeto de Introdução.
 - `requirements.txt`: Lista de dependências do projeto.

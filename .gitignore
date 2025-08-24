@@ -1,3 +1,5 @@
 *.csv
 *.pdf
 *.html
+.env
+.DS_store

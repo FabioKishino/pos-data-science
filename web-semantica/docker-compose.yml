@@ -1,0 +1,26 @@
+services:
+  graphdb:
+    image: ontotext/graphdb:10.8.12
+    container_name: graphdb
+    network_mode: host
+    environment:
+      - GDB_HEAP_SIZE=2G
+      - GDB_MIN_MEM=1G
+      - GDB_MAX_MEM=2G
+    volumes:
+      - graphdb_data:/opt/graphdb/home
+
+  refine:
+    image: ontotext/refine:1.2.2
+    container_name: refine
+    platform: linux/amd64
+    network_mode: host
+    environment:
+      - REFINE_HOST=0.0.0.0
+      - REFINE_PORT=7333
+    volumes:
+      - refine_data:/opt/ontorefine/data
+
+volumes:
+  graphdb_data:
+  refine_data:

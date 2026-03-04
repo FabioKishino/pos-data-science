@@ -1,0 +1,2835 @@
+@base <http://example.com/ssma/ontology> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ssma: <http://example.org/social-media-addiction/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+
+ssma:Adriana a foaf:Person, foaf:Agent;
+  rdfs:label "Adriana";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Finland;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:TikTok a ssma:SocialMedia;
+  rdfs:label "TikTok" .
+
+ssma:Finland a ssma:Country;
+  rdfs:label "Finland" .
+
+ssma:Undergraduate a ssma:AcademicLevel;
+  rdfs:label "Undergraduate" .
+
+ssma:Single a ssma:RelationshipStatus;
+  rdfs:label "Single" .
+
+ssma:Adriano a foaf:Person, foaf:Agent;
+  rdfs:label "Adriano";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Maldives a ssma:Country;
+  rdfs:label "Maldives" .
+
+ssma:Graduate a ssma:AcademicLevel;
+  rdfs:label "Graduate" .
+
+ssma:In%20Relationship a ssma:RelationshipStatus;
+  rdfs:label "In Relationship" .
+
+ssma:Alan a foaf:Person, foaf:Agent;
+  rdfs:label "Alan";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Facebook a ssma:SocialMedia;
+  rdfs:label "Facebook" .
+
+ssma:Nepal a ssma:Country;
+  rdfs:label "Nepal" .
+
+ssma:Alana a foaf:Person, foaf:Agent;
+  rdfs:label "Alana";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Albania;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Albania a ssma:Country;
+  rdfs:label "Albania" .
+
+ssma:Complicated a ssma:RelationshipStatus;
+  rdfs:label "Complicated" .
+
+ssma:Alexandre a foaf:Person, foaf:Agent;
+  rdfs:label "Alexandre";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Tajikistan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:YouTube a ssma:SocialMedia;
+  rdfs:label "YouTube" .
+
+ssma:Tajikistan a ssma:Country;
+  rdfs:label "Tajikistan" .
+
+ssma:Alice a foaf:Person, foaf:Agent;
+  rdfs:label "Alice";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Instagram a ssma:SocialMedia;
+  rdfs:label "Instagram" .
+
+ssma:India a ssma:Country;
+  rdfs:label "India" .
+
+ssma:Aline a foaf:Person, foaf:Agent;
+  rdfs:label "Aline";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Ireland;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "6.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Ireland a ssma:Country;
+  rdfs:label "Ireland" .
+
+ssma:High%20School a ssma:AcademicLevel;
+  rdfs:label "High School" .
+
+ssma:Alisson a foaf:Person, foaf:Agent;
+  rdfs:label "Alisson";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Bangladesh a ssma:Country;
+  rdfs:label "Bangladesh" .
+
+ssma:Amanda a foaf:Person, foaf:Agent;
+  rdfs:label "Amanda";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:South%20Korea;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "3.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:South%20Korea a ssma:Country;
+  rdfs:label "South Korea" .
+
+ssma:Ana a foaf:Person, foaf:Agent;
+  rdfs:label "Ana";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:USA;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:USA a ssma:Country;
+  rdfs:label "USA" .
+
+ssma:Anderson a foaf:Person, foaf:Agent;
+  rdfs:label "Anderson";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:André a foaf:Person, foaf:Agent;
+  rdfs:label "André";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Egypt;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "3.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Egypt a ssma:Country;
+  rdfs:label "Egypt" .
+
+ssma:Andressa a foaf:Person, foaf:Agent;
+  rdfs:label "Andressa";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Kosovo;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Kosovo a ssma:Country;
+  rdfs:label "Kosovo" .
+
+ssma:Antônio a foaf:Person, foaf:Agent;
+  rdfs:label "Antônio";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Andorra;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Andorra a ssma:Country;
+  rdfs:label "Andorra" .
+
+ssma:Arthur a foaf:Person, foaf:Agent;
+  rdfs:label "Arthur";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "3.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Augusto a foaf:Person, foaf:Agent;
+  rdfs:label "Augusto";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bárbara a foaf:Person, foaf:Agent;
+  rdfs:label "Bárbara";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Qatar;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Qatar a ssma:Country;
+  rdfs:label "Qatar" .
+
+ssma:Beatriz a foaf:Person, foaf:Agent;
+  rdfs:label "Beatriz";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Spain;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Spain a ssma:Country;
+  rdfs:label "Spain" .
+
+ssma:Benjamin a foaf:Person, foaf:Agent;
+  rdfs:label "Benjamin";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Bernardo a foaf:Person, foaf:Agent;
+  rdfs:label "Bernardo";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Afghanistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "2.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:LinkedIn a ssma:SocialMedia;
+  rdfs:label "LinkedIn" .
+
+ssma:Afghanistan a ssma:Country;
+  rdfs:label "Afghanistan" .
+
+ssma:Beto a foaf:Person, foaf:Agent;
+  rdfs:label "Beto";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bianca a foaf:Person, foaf:Agent;
+  rdfs:label "Bianca";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nigeria;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Nigeria a ssma:Country;
+  rdfs:label "Nigeria" .
+
+ssma:Breno a foaf:Person, foaf:Agent;
+  rdfs:label "Breno";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Sri%20Lanka a ssma:Country;
+  rdfs:label "Sri Lanka" .
+
+ssma:Bruna a foaf:Person, foaf:Agent;
+  rdfs:label "Bruna";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:China;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:China a ssma:Country;
+  rdfs:label "China" .
+
+ssma:Bruno a foaf:Person, foaf:Agent;
+  rdfs:label "Bruno";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Belgium;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Belgium a ssma:Country;
+  rdfs:label "Belgium" .
+
+ssma:Caio a foaf:Person, foaf:Agent;
+  rdfs:label "Caio";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Uruguay;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "3.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Uruguay a ssma:Country;
+  rdfs:label "Uruguay" .
+
+ssma:Camila a foaf:Person, foaf:Agent;
+  rdfs:label "Camila";
+  foaf:age 18;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Mexico;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "6.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Mexico a ssma:Country;
+  rdfs:label "Mexico" .
+
+ssma:Carlos a foaf:Person, foaf:Agent;
+  rdfs:label "Carlos";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Austria;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Austria a ssma:Country;
+  rdfs:label "Austria" .
+
+ssma:Carolina a foaf:Person, foaf:Agent;
+  rdfs:label "Carolina";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Portugal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Portugal a ssma:Country;
+  rdfs:label "Portugal" .
+
+ssma:Cauã a foaf:Person, foaf:Agent;
+  rdfs:label "Cauã";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Pakistan a ssma:Country;
+  rdfs:label "Pakistan" .
+
+ssma:Cecília a foaf:Person, foaf:Agent;
+  rdfs:label "Cecília";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:César a foaf:Person, foaf:Agent;
+  rdfs:label "César";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Georgia;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Georgia a ssma:Country;
+  rdfs:label "Georgia" .
+
+ssma:Cintia a foaf:Person, foaf:Agent;
+  rdfs:label "Cintia";
+  foaf:age 22;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bahrain;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bahrain a ssma:Country;
+  rdfs:label "Bahrain" .
+
+ssma:Clarice a foaf:Person, foaf:Agent;
+  rdfs:label "Clarice";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "6.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Cláudia a foaf:Person, foaf:Agent;
+  rdfs:label "Cláudia";
+  foaf:age 22;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Kyrgyzstan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "2.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Kyrgyzstan a ssma:Country;
+  rdfs:label "Kyrgyzstan" .
+
+ssma:Cláudio a foaf:Person, foaf:Agent;
+  rdfs:label "Cláudio";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Cristiane a foaf:Person, foaf:Agent;
+  rdfs:label "Cristiane";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Kazakhstan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Snapchat a ssma:SocialMedia;
+  rdfs:label "Snapchat" .
+
+ssma:Kazakhstan a ssma:Country;
+  rdfs:label "Kazakhstan" .
+
+ssma:Cristiano a foaf:Person, foaf:Agent;
+  rdfs:label "Cristiano";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Daiane a foaf:Person, foaf:Agent;
+  rdfs:label "Daiane";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Jordan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Jordan a ssma:Country;
+  rdfs:label "Jordan" .
+
+ssma:Daniel a foaf:Person, foaf:Agent;
+  rdfs:label "Daniel";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Greece;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Greece a ssma:Country;
+  rdfs:label "Greece" .
+
+ssma:Daniela a foaf:Person, foaf:Agent;
+  rdfs:label "Daniela";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Turkey;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Turkey a ssma:Country;
+  rdfs:label "Turkey" .
+
+ssma:Danilo a foaf:Person, foaf:Agent;
+  rdfs:label "Danilo";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Darlan a foaf:Person, foaf:Agent;
+  rdfs:label "Darlan";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Davi a foaf:Person, foaf:Agent;
+  rdfs:label "Davi";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Oman;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Oman a ssma:Country;
+  rdfs:label "Oman" .
+
+ssma:Débora a foaf:Person, foaf:Agent;
+  rdfs:label "Débora";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Romania;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Romania a ssma:Country;
+  rdfs:label "Romania" .
+
+ssma:Diego a foaf:Person, foaf:Agent;
+  rdfs:label "Diego";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Vietnam;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Vietnam a ssma:Country;
+  rdfs:label "Vietnam" .
+
+ssma:Douglas a foaf:Person, foaf:Agent;
+  rdfs:label "Douglas";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Uzbekistan;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Uzbekistan a ssma:Country;
+  rdfs:label "Uzbekistan" .
+
+ssma:Eduarda a foaf:Person, foaf:Agent;
+  rdfs:label "Eduarda";
+  foaf:age 23;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Iraq;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Iraq a ssma:Country;
+  rdfs:label "Iraq" .
+
+ssma:Eduardo a foaf:Person, foaf:Agent;
+  rdfs:label "Eduardo";
+  foaf:age 18, 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Argentina, ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:High%20School, ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8, 7;
+  ssma:dailyUsageHours "5.5"^^xsd:float, "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Argentina a ssma:Country;
+  rdfs:label "Argentina" .
+
+ssma:Elaine a foaf:Person, foaf:Agent;
+  rdfs:label "Elaine";
+  foaf:age 18;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Czech%20Republic;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "6.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Czech%20Republic a ssma:Country;
+  rdfs:label "Czech Republic" .
+
+ssma:Elisa a foaf:Person, foaf:Agent;
+  rdfs:label "Elisa";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "5.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Emanuel a foaf:Person, foaf:Agent;
+  rdfs:label "Emanuel";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Kuwait;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Kuwait a ssma:Country;
+  rdfs:label "Kuwait" .
+
+ssma:Enzo a foaf:Person, foaf:Agent;
+  rdfs:label "Enzo";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Yemen;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Yemen a ssma:Country;
+  rdfs:label "Yemen" .
+
+ssma:Erick a foaf:Person, foaf:Agent;
+  rdfs:label "Erick";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Ester a foaf:Person, foaf:Agent;
+  rdfs:label "Ester";
+  foaf:age 18;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Syria;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Syria a ssma:Country;
+  rdfs:label "Syria" .
+
+ssma:Evelyn a foaf:Person, foaf:Agent;
+  rdfs:label "Evelyn";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Fabiana a foaf:Person, foaf:Agent;
+  rdfs:label "Fabiana";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Croatia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Croatia a ssma:Country;
+  rdfs:label "Croatia" .
+
+ssma:Fabio a foaf:Person, foaf:Agent;
+  rdfs:label "Fabio";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Fábio a foaf:Person, foaf:Agent;
+  rdfs:label "Fábio";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Poland;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Poland a ssma:Country;
+  rdfs:label "Poland" .
+
+ssma:Felipe a foaf:Person, foaf:Agent;
+  rdfs:label "Felipe";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Denmark;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Denmark a ssma:Country;
+  rdfs:label "Denmark" .
+
+ssma:Fernanda a foaf:Person, foaf:Agent;
+  rdfs:label "Fernanda";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Brazil;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Brazil a ssma:Country;
+  rdfs:label "Brazil" .
+
+ssma:Fernando a foaf:Person, foaf:Agent;
+  rdfs:label "Fernando";
+  foaf:age 24;
+  foaf:gender "Male";
+  schema:addressCountry ssma:South%20Africa;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:South%20Africa a ssma:Country;
+  rdfs:label "South Africa" .
+
+ssma:Flávia a foaf:Person, foaf:Agent;
+  rdfs:label "Flávia";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Flávio a foaf:Person, foaf:Agent;
+  rdfs:label "Flávio";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Francisco a foaf:Person, foaf:Agent;
+  rdfs:label "Francisco";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Gabriel a foaf:Person, foaf:Agent;
+  rdfs:label "Gabriel";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:UK;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:UK a ssma:Country;
+  rdfs:label "UK" .
+
+ssma:Gabriela a foaf:Person, foaf:Agent;
+  rdfs:label "Gabriela";
+  foaf:age 23;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Switzerland;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Switzerland a ssma:Country;
+  rdfs:label "Switzerland" .
+
+ssma:Gilberto a foaf:Person, foaf:Agent;
+  rdfs:label "Gilberto";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Giovana a foaf:Person, foaf:Agent;
+  rdfs:label "Giovana";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bhutan;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Bhutan a ssma:Country;
+  rdfs:label "Bhutan" .
+
+ssma:Graziele a foaf:Person, foaf:Agent;
+  rdfs:label "Graziele";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Guilherme a foaf:Person, foaf:Agent;
+  rdfs:label "Guilherme";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Russia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Russia a ssma:Country;
+  rdfs:label "Russia" .
+
+ssma:Gustavo a foaf:Person, foaf:Agent;
+  rdfs:label "Gustavo";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Hong%20Kong;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Hong%20Kong a ssma:Country;
+  rdfs:label "Hong Kong" .
+
+ssma:Haroldo a foaf:Person, foaf:Agent;
+  rdfs:label "Haroldo";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Facebook a ssma:SocialMedia;
+  rdfs:label "Facebook" .
+
+ssma:India a ssma:Country;
+  rdfs:label "India" .
+
+ssma:Graduate a ssma:AcademicLevel;
+  rdfs:label "Graduate" .
+
+ssma:In%20Relationship a ssma:RelationshipStatus;
+  rdfs:label "In Relationship" .
+
+ssma:Heitor a foaf:Person, foaf:Agent;
+  rdfs:label "Heitor";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Lebanon;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:YouTube a ssma:SocialMedia;
+  rdfs:label "YouTube" .
+
+ssma:Lebanon a ssma:Country;
+  rdfs:label "Lebanon" .
+
+ssma:High%20School a ssma:AcademicLevel;
+  rdfs:label "High School" .
+
+ssma:Complicated a ssma:RelationshipStatus;
+  rdfs:label "Complicated" .
+
+ssma:Helena a foaf:Person, foaf:Agent;
+  rdfs:label "Helena";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Instagram a ssma:SocialMedia;
+  rdfs:label "Instagram" .
+
+ssma:Maldives a ssma:Country;
+  rdfs:label "Maldives" .
+
+ssma:Undergraduate a ssma:AcademicLevel;
+  rdfs:label "Undergraduate" .
+
+ssma:Single a ssma:RelationshipStatus;
+  rdfs:label "Single" .
+
+ssma:Heloísa a foaf:Person, foaf:Agent;
+  rdfs:label "Heloísa";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Henrique a foaf:Person, foaf:Agent;
+  rdfs:label "Henrique";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Venezuela;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Venezuela a ssma:Country;
+  rdfs:label "Venezuela" .
+
+ssma:Hugo a foaf:Person, foaf:Agent;
+  rdfs:label "Hugo";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:TikTok a ssma:SocialMedia;
+  rdfs:label "TikTok" .
+
+ssma:Nepal a ssma:Country;
+  rdfs:label "Nepal" .
+
+ssma:Iara a foaf:Person, foaf:Agent;
+  rdfs:label "Iara";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Sri%20Lanka a ssma:Country;
+  rdfs:label "Sri Lanka" .
+
+ssma:Igor a foaf:Person, foaf:Agent;
+  rdfs:label "Igor";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Serbia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "3.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Serbia a ssma:Country;
+  rdfs:label "Serbia" .
+
+ssma:Ingrid a foaf:Person, foaf:Agent;
+  rdfs:label "Ingrid";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Isabela a foaf:Person, foaf:Agent;
+  rdfs:label "Isabela";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Ghana;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Snapchat a ssma:SocialMedia;
+  rdfs:label "Snapchat" .
+
+ssma:Ghana a ssma:Country;
+  rdfs:label "Ghana" .
+
+ssma:Isabella a foaf:Person, foaf:Agent;
+  rdfs:label "Isabella";
+  foaf:age 23;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Chile;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:LinkedIn a ssma:SocialMedia;
+  rdfs:label "LinkedIn" .
+
+ssma:Chile a ssma:Country;
+  rdfs:label "Chile" .
+
+ssma:Israel a foaf:Person, foaf:Agent;
+  rdfs:label "Israel";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Janaína a foaf:Person, foaf:Agent;
+  rdfs:label "Janaína";
+  foaf:age 22;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Pakistan a ssma:Country;
+  rdfs:label "Pakistan" .
+
+ssma:Jéssica a foaf:Person, foaf:Agent;
+  rdfs:label "Jéssica";
+  foaf:age 20, 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Philippines, ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat, ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship, ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Philippines a ssma:Country;
+  rdfs:label "Philippines" .
+
+ssma:Bangladesh a ssma:Country;
+  rdfs:label "Bangladesh" .
+
+ssma:Joana a foaf:Person, foaf:Agent;
+  rdfs:label "Joana";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:João a foaf:Person, foaf:Agent;
+  rdfs:label "João";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Twitter;
+  ssma:hasAddictionLevel 3;
+  ssma:dailyUsageHours "2.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Twitter a ssma:SocialMedia;
+  rdfs:label "Twitter" .
+
+ssma:Jonas a foaf:Person, foaf:Agent;
+  rdfs:label "Jonas";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Jonathan a foaf:Person, foaf:Agent;
+  rdfs:label "Jonathan";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Jorge a foaf:Person, foaf:Agent;
+  rdfs:label "Jorge";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Cyprus;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "3.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Cyprus a ssma:Country;
+  rdfs:label "Cyprus" .
+
+ssma:Juliana a foaf:Person, foaf:Agent;
+  rdfs:label "Juliana";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Australia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "7.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Australia a ssma:Country;
+  rdfs:label "Australia" .
+
+ssma:Karina a foaf:Person, foaf:Agent;
+  rdfs:label "Karina";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Slovenia;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Slovenia a ssma:Country;
+  rdfs:label "Slovenia" .
+
+ssma:Kátia a foaf:Person, foaf:Agent;
+  rdfs:label "Kátia";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Kelly a foaf:Person, foaf:Agent;
+  rdfs:label "Kelly";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Kelvin a foaf:Person, foaf:Agent;
+  rdfs:label "Kelvin";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Larissa a foaf:Person, foaf:Agent;
+  rdfs:label "Larissa";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Norway;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Norway a ssma:Country;
+  rdfs:label "Norway" .
+
+ssma:Laura a foaf:Person, foaf:Agent;
+  rdfs:label "Laura";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Leandro a foaf:Person, foaf:Agent;
+  rdfs:label "Leandro";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Hungary;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Hungary a ssma:Country;
+  rdfs:label "Hungary" .
+
+ssma:Leila a foaf:Person, foaf:Agent;
+  rdfs:label "Leila";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Leonardo a foaf:Person, foaf:Agent;
+  rdfs:label "Leonardo";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Indonesia;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Indonesia a ssma:Country;
+  rdfs:label "Indonesia" .
+
+ssma:Letícia a foaf:Person, foaf:Agent;
+  rdfs:label "Letícia";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Singapore;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Singapore a ssma:Country;
+  rdfs:label "Singapore" .
+
+ssma:Lídia a foaf:Person, foaf:Agent;
+  rdfs:label "Lídia";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Lívia a foaf:Person, foaf:Agent;
+  rdfs:label "Lívia";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Lorena a foaf:Person, foaf:Agent;
+  rdfs:label "Lorena";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Luan a foaf:Person, foaf:Agent;
+  rdfs:label "Luan";
+  foaf:age 23;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Luana a foaf:Person, foaf:Agent;
+  rdfs:label "Luana";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Peru;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Peru a ssma:Country;
+  rdfs:label "Peru" .
+
+ssma:Lucas a foaf:Person, foaf:Agent;
+  rdfs:label "Lucas";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Canada;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Canada a ssma:Country;
+  rdfs:label "Canada" .
+
+ssma:Luis a foaf:Person, foaf:Agent;
+  rdfs:label "Luis";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:North%20Macedonia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "3.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:North%20Macedonia a ssma:Country;
+  rdfs:label "North Macedonia" .
+
+ssma:Luís a foaf:Person, foaf:Agent;
+  rdfs:label "Luís";
+  foaf:age 23;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bosnia;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bosnia a ssma:Country;
+  rdfs:label "Bosnia" .
+
+ssma:Maitê a foaf:Person, foaf:Agent;
+  rdfs:label "Maitê";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Manuela a foaf:Person, foaf:Agent;
+  rdfs:label "Manuela";
+  foaf:age 22;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Marcelo a foaf:Person, foaf:Agent;
+  rdfs:label "Marcelo";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Colombia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Colombia a ssma:Country;
+  rdfs:label "Colombia" .
+
+ssma:Marcia a foaf:Person, foaf:Agent;
+  rdfs:label "Marcia";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Márcio a foaf:Person, foaf:Agent;
+  rdfs:label "Márcio";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Marcos a foaf:Person, foaf:Agent;
+  rdfs:label "Marcos";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Montenegro;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "2.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Montenegro a ssma:Country;
+  rdfs:label "Montenegro" .
+
+ssma:Maria a foaf:Person, foaf:Agent;
+  rdfs:label "Maria";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Mariana a foaf:Person, foaf:Agent;
+  rdfs:label "Mariana";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Netherlands;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Netherlands a ssma:Country;
+  rdfs:label "Netherlands" .
+
+ssma:Mateus a foaf:Person, foaf:Agent;
+  rdfs:label "Mateus";
+  foaf:age 18, 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Japan, ssma:France;
+  ssma:hasAcademicLevel ssma:High%20School, ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok, ssma:Snapchat;
+  ssma:hasAddictionLevel 5, 7;
+  ssma:dailyUsageHours "4"^^xsd:float, "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single, ssma:Complicated;
+  ssma:affectsAcademicPerformance "No", "Yes" .
+
+ssma:Japan a ssma:Country;
+  rdfs:label "Japan" .
+
+ssma:France a ssma:Country;
+  rdfs:label "France" .
+
+ssma:Matheus a foaf:Person, foaf:Agent;
+  rdfs:label "Matheus";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Italy;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Italy a ssma:Country;
+  rdfs:label "Italy" .
+
+ssma:Mayara a foaf:Person, foaf:Agent;
+  rdfs:label "Mayara";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Michele a foaf:Person, foaf:Agent;
+  rdfs:label "Michele";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Estonia;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Estonia a ssma:Country;
+  rdfs:label "Estonia" .
+
+ssma:Milena a foaf:Person, foaf:Agent;
+  rdfs:label "Milena";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Monique a foaf:Person, foaf:Agent;
+  rdfs:label "Monique";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Lithuania;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Lithuania a ssma:Country;
+  rdfs:label "Lithuania" .
+
+ssma:Murilo a foaf:Person, foaf:Agent;
+  rdfs:label "Murilo";
+  foaf:age 23;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Slovakia;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 3;
+  ssma:dailyUsageHours "2.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Slovakia a ssma:Country;
+  rdfs:label "Slovakia" .
+
+ssma:Nádia a foaf:Person, foaf:Agent;
+  rdfs:label "Nádia";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Natália a foaf:Person, foaf:Agent;
+  rdfs:label "Natália";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:UAE;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "6.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:UAE a ssma:Country;
+  rdfs:label "UAE" .
+
+ssma:Nathan a foaf:Person, foaf:Agent;
+  rdfs:label "Nathan";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Nicolas a foaf:Person, foaf:Agent;
+  rdfs:label "Nicolas";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Nicole a foaf:Person, foaf:Agent;
+  rdfs:label "Nicole";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Noah a foaf:Person, foaf:Agent;
+  rdfs:label "Noah";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Olívia a foaf:Person, foaf:Agent;
+  rdfs:label "Olívia";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Otávio a foaf:Person, foaf:Agent;
+  rdfs:label "Otávio";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Ukraine;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Ukraine a ssma:Country;
+  rdfs:label "Ukraine" .
+
+ssma:Pablo a foaf:Person, foaf:Agent;
+  rdfs:label "Pablo";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Pâmela a foaf:Person, foaf:Agent;
+  rdfs:label "Pâmela";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Patrícia a foaf:Person, foaf:Agent;
+  rdfs:label "Patrícia";
+  foaf:age 23;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Taiwan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Taiwan a ssma:Country;
+  rdfs:label "Taiwan" .
+
+ssma:Patrik a foaf:Person, foaf:Agent;
+  rdfs:label "Patrik";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Paula a foaf:Person, foaf:Agent;
+  rdfs:label "Paula";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Ecuador;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "6.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Ecuador a ssma:Country;
+  rdfs:label "Ecuador" .
+
+ssma:Paulo a foaf:Person, foaf:Agent;
+  rdfs:label "Paulo";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Vatican%20City;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:YouTube;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Vatican%20City a ssma:Country;
+  rdfs:label "Vatican City" .
+
+ssma:Pedro a foaf:Person, foaf:Agent;
+  rdfs:label "Pedro";
+  foaf:age 23;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Germany;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 2;
+  ssma:dailyUsageHours "1.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Germany a ssma:Country;
+  rdfs:label "Germany" .
+
+ssma:Priscila a foaf:Person, foaf:Agent;
+  rdfs:label "Priscila";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Paraguay;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Paraguay a ssma:Country;
+  rdfs:label "Paraguay" .
+
+ssma:Rafael a foaf:Person, foaf:Agent;
+  rdfs:label "Rafael";
+  foaf:age 24;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sweden;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 3;
+  ssma:dailyUsageHours "2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Sweden a ssma:Country;
+  rdfs:label "Sweden" .
+
+ssma:Rafaela a foaf:Person, foaf:Agent;
+  rdfs:label "Rafaela";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Thailand;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Thailand a ssma:Country;
+  rdfs:label "Thailand" .
+
+ssma:Raquel a foaf:Person, foaf:Agent;
+  rdfs:label "Raquel";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Raul a foaf:Person, foaf:Agent;
+  rdfs:label "Raul";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Rebeca a foaf:Person, foaf:Agent;
+  rdfs:label "Rebeca";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Instagram a ssma:SocialMedia;
+  rdfs:label "Instagram" .
+
+ssma:Bangladesh a ssma:Country;
+  rdfs:label "Bangladesh" .
+
+ssma:Undergraduate a ssma:AcademicLevel;
+  rdfs:label "Undergraduate" .
+
+ssma:Single a ssma:RelationshipStatus;
+  rdfs:label "Single" .
+
+ssma:Renan a foaf:Person, foaf:Agent;
+  rdfs:label "Renan";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Latvia;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Snapchat a ssma:SocialMedia;
+  rdfs:label "Snapchat" .
+
+ssma:Latvia a ssma:Country;
+  rdfs:label "Latvia" .
+
+ssma:High%20School a ssma:AcademicLevel;
+  rdfs:label "High School" .
+
+ssma:Renata a foaf:Person, foaf:Agent;
+  rdfs:label "Renata";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Costa%20Rica;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Costa%20Rica a ssma:Country;
+  rdfs:label "Costa Rica" .
+
+ssma:Renato a foaf:Person, foaf:Agent;
+  rdfs:label "Renato";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "5.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Facebook a ssma:SocialMedia;
+  rdfs:label "Facebook" .
+
+ssma:India a ssma:Country;
+  rdfs:label "India" .
+
+ssma:Graduate a ssma:AcademicLevel;
+  rdfs:label "Graduate" .
+
+ssma:In%20Relationship a ssma:RelationshipStatus;
+  rdfs:label "In Relationship" .
+
+ssma:Ricardo a foaf:Person, foaf:Agent;
+  rdfs:label "Ricardo";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Iceland;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Iceland a ssma:Country;
+  rdfs:label "Iceland" .
+
+ssma:Complicated a ssma:RelationshipStatus;
+  rdfs:label "Complicated" .
+
+ssma:Rita a foaf:Person, foaf:Agent;
+  rdfs:label "Rita";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:TikTok a ssma:SocialMedia;
+  rdfs:label "TikTok" .
+
+ssma:Nepal a ssma:Country;
+  rdfs:label "Nepal" .
+
+ssma:Roberta a foaf:Person, foaf:Agent;
+  rdfs:label "Roberta";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Pakistan a ssma:Country;
+  rdfs:label "Pakistan" .
+
+ssma:Roberto a foaf:Person, foaf:Agent;
+  rdfs:label "Roberto";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Luxembourg;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Luxembourg a ssma:Country;
+  rdfs:label "Luxembourg" .
+
+ssma:Rodrigo a foaf:Person, foaf:Agent;
+  rdfs:label "Rodrigo";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Kenya;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Kenya a ssma:Country;
+  rdfs:label "Kenya" .
+
+ssma:Rogério a foaf:Person, foaf:Agent;
+  rdfs:label "Rogério";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Sri%20Lanka a ssma:Country;
+  rdfs:label "Sri Lanka" .
+
+ssma:Rosana a foaf:Person, foaf:Agent;
+  rdfs:label "Rosana";
+  foaf:age 22;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Malta;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:LinkedIn a ssma:SocialMedia;
+  rdfs:label "LinkedIn" .
+
+ssma:Malta a ssma:Country;
+  rdfs:label "Malta" .
+
+ssma:Ruan a foaf:Person, foaf:Agent;
+  rdfs:label "Ruan";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Nepal;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Sabrina a foaf:Person, foaf:Agent;
+  rdfs:label "Sabrina";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Moldova;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Moldova a ssma:Country;
+  rdfs:label "Moldova" .
+
+ssma:Samara a foaf:Person, foaf:Agent;
+  rdfs:label "Samara";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Maldives a ssma:Country;
+  rdfs:label "Maldives" .
+
+ssma:Samuel a foaf:Person, foaf:Agent;
+  rdfs:label "Samuel";
+  foaf:age 24;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bolivia;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bolivia a ssma:Country;
+  rdfs:label "Bolivia" .
+
+ssma:Sandra a foaf:Person, foaf:Agent;
+  rdfs:label "Sandra";
+  foaf:age 18;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Armenia;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "5.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Armenia a ssma:Country;
+  rdfs:label "Armenia" .
+
+ssma:Saulo a foaf:Person, foaf:Agent;
+  rdfs:label "Saulo";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Sérgio a foaf:Person, foaf:Agent;
+  rdfs:label "Sérgio";
+  foaf:age 19;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Sheila a foaf:Person, foaf:Agent;
+  rdfs:label "Sheila";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Silvana a foaf:Person, foaf:Agent;
+  rdfs:label "Silvana";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Simone a foaf:Person, foaf:Agent;
+  rdfs:label "Simone";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Monaco;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Monaco a ssma:Country;
+  rdfs:label "Monaco" .
+
+ssma:Sofia a foaf:Person, foaf:Agent;
+  rdfs:label "Sofia";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Sônia a foaf:Person, foaf:Agent;
+  rdfs:label "Sônia";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Azerbaijan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Azerbaijan a ssma:Country;
+  rdfs:label "Azerbaijan" .
+
+ssma:Suelen a foaf:Person, foaf:Agent;
+  rdfs:label "Suelen";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Tadeu a foaf:Person, foaf:Agent;
+  rdfs:label "Tadeu";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Tainá a foaf:Person, foaf:Agent;
+  rdfs:label "Tainá";
+  foaf:age 23;
+  foaf:gender "Female";
+  schema:addressCountry ssma:San%20Marino;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:San%20Marino a ssma:Country;
+  rdfs:label "San Marino" .
+
+ssma:Talita a foaf:Person, foaf:Agent;
+  rdfs:label "Talita";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Tamara a foaf:Person, foaf:Agent;
+  rdfs:label "Tamara";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Tatiane a foaf:Person, foaf:Agent;
+  rdfs:label "Tatiane";
+  foaf:age 23;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bahamas;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bahamas a ssma:Country;
+  rdfs:label "Bahamas" .
+
+ssma:Tereza a foaf:Person, foaf:Agent;
+  rdfs:label "Tereza";
+  foaf:age 19;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Sri%20Lanka;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "4.7"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Thais a foaf:Person, foaf:Agent;
+  rdfs:label "Thais";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Thiago a foaf:Person, foaf:Agent;
+  rdfs:label "Thiago";
+  foaf:age 21, 24;
+  foaf:gender "Male";
+  schema:addressCountry ssma:New%20Zealand, ssma:Malaysia;
+  ssma:hasAcademicLevel ssma:Undergraduate, ssma:Graduate;
+  ssma:primaryPlatform ssma:YouTube, ssma:LinkedIn;
+  ssma:hasAddictionLevel 5, 3;
+  ssma:dailyUsageHours "3.8"^^xsd:float, "2.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:YouTube a ssma:SocialMedia;
+  rdfs:label "YouTube" .
+
+ssma:New%20Zealand a ssma:Country;
+  rdfs:label "New Zealand" .
+
+ssma:Malaysia a ssma:Country;
+  rdfs:label "Malaysia" .
+
+ssma:Ulisses a foaf:Person, foaf:Agent;
+  rdfs:label "Ulisses";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "5.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Vagner a foaf:Person, foaf:Agent;
+  rdfs:label "Vagner";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Valéria a foaf:Person, foaf:Agent;
+  rdfs:label "Valéria";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Valter a foaf:Person, foaf:Agent;
+  rdfs:label "Valter";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.3"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Vanessa a foaf:Person, foaf:Agent;
+  rdfs:label "Vanessa";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Jamaica;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Snapchat;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.9"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Complicated;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Jamaica a ssma:Country;
+  rdfs:label "Jamaica" .
+
+ssma:Vera a foaf:Person, foaf:Agent;
+  rdfs:label "Vera";
+  foaf:age 21;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "4.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Victor a foaf:Person, foaf:Agent;
+  rdfs:label "Victor";
+  foaf:age 18;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Trinidad;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Trinidad a ssma:Country;
+  rdfs:label "Trinidad" .
+
+ssma:Vinícius a foaf:Person, foaf:Agent;
+  rdfs:label "Vinícius";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Israel;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Israel a ssma:Country;
+  rdfs:label "Israel" .
+
+ssma:Vitor a foaf:Person, foaf:Agent;
+  rdfs:label "Vitor";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Panama;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Panama a ssma:Country;
+  rdfs:label "Panama" .
+
+ssma:Vitória a foaf:Person, foaf:Agent;
+  rdfs:label "Vitória";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Morocco;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Morocco a ssma:Country;
+  rdfs:label "Morocco" .
+
+ssma:Viviane a foaf:Person, foaf:Agent;
+  rdfs:label "Viviane";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 5;
+  ssma:dailyUsageHours "3.6"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Wallace a foaf:Person, foaf:Agent;
+  rdfs:label "Wallace";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Maldives;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:TikTok;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "5.2"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Wesley a foaf:Person, foaf:Agent;
+  rdfs:label "Wesley";
+  foaf:age 23;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Belarus;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Belarus a ssma:Country;
+  rdfs:label "Belarus" .
+
+ssma:William a foaf:Person, foaf:Agent;
+  rdfs:label "William";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bulgaria;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:LinkedIn;
+  ssma:hasAddictionLevel 4;
+  ssma:dailyUsageHours "2.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Bulgaria a ssma:Country;
+  rdfs:label "Bulgaria" .
+
+ssma:Yago a foaf:Person, foaf:Agent;
+  rdfs:label "Yago";
+  foaf:age 22;
+  foaf:gender "Male";
+  schema:addressCountry ssma:India;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Facebook;
+  ssma:hasAddictionLevel 6;
+  ssma:dailyUsageHours "5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "No" .
+
+ssma:Yasmin a foaf:Person, foaf:Agent;
+  rdfs:label "Yasmin";
+  foaf:age 18;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Liechtenstein;
+  ssma:hasAcademicLevel ssma:High%20School;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 9;
+  ssma:dailyUsageHours "5.8"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Liechtenstein a ssma:Country;
+  rdfs:label "Liechtenstein" .
+
+ssma:Yuri a foaf:Person, foaf:Agent;
+  rdfs:label "Yuri";
+  foaf:age 20;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 8;
+  ssma:dailyUsageHours "6.1"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Zeca a foaf:Person, foaf:Agent;
+  rdfs:label "Zeca";
+  foaf:age 21;
+  foaf:gender "Male";
+  schema:addressCountry ssma:Pakistan;
+  ssma:hasAcademicLevel ssma:Graduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.4"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:In%20Relationship;
+  ssma:affectsAcademicPerformance "Yes" .
+
+ssma:Zilda a foaf:Person, foaf:Agent;
+  rdfs:label "Zilda";
+  foaf:age 20;
+  foaf:gender "Female";
+  schema:addressCountry ssma:Bangladesh;
+  ssma:hasAcademicLevel ssma:Undergraduate;
+  ssma:primaryPlatform ssma:Instagram;
+  ssma:hasAddictionLevel 7;
+  ssma:dailyUsageHours "4.5"^^xsd:float;
+  ssma:hasRelationshipStatus ssma:Single;
+  ssma:affectsAcademicPerformance "Yes" .

@@ -8,4 +8,9 @@
 .xlsx
 .qpt
 .qgz
-.docx
+*.docx
+*.zip
+big-data/*.crc
+big-data/**/*.crc
+big-data/*.parquet
+big-data/**/*.parquet

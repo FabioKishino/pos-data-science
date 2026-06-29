@@ -1,0 +1,19 @@
+## Colunas
+
+matricula
+nome_discente
+sexo
+ano_conclusao
+periodo_conclusao
+ano_ingresso
+periodo_ingresso
+id_curso
+nome_curso
+modalidade_educacao
+forma_ingresso
+tipo_discente
+nivel_ensino
+id_unidade
+nome_unidade
+id_unidade_gestora
+nome_unidade_gestora
